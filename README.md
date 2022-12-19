@@ -14,45 +14,33 @@ This repo contains all the code documents for data clearning and analysis in tha
 
 ### Query API
 
-* This is the file to pull
-* ex. Windows 10
+* This is the file to pull API data from Opensky API using ssh. You can also use Request, which is most basic way and Opensky API has a good documentation for it. This code was shared by my former supervisor Zhi from BetaNYC, and we really thank him. 
+* This code created a for loop so that you can get data for more than the time limiation of Opensky API (which is 2 hours max I think).
+* Due to the inconsistancy of the API (for us at least), we only were able pulled helicopter information from 7/2/2022, but you can modify the code so that it gets data for more than one day.
+* Keep in mind that you have to run the following code in terminal: ssh -p 2230 -l YOURUSERNAME data.opensky-network.org;YOURPASSWORD
 
-### Installing
+### Helicopter data cleaning and count volume
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+* This is the file to clean the dataset we downloaded using the query code. Most of the blocks in this files are annotated with what it does and stuff, os things shouldn't be too confusing.
+* Few important feature of this code include: identify unique trips took by individual helicopter and assign each trip its own unique index, starting from 0 each trip; generate trajectory for each helicopter trip so that it has it's own geometry (it very helpful if you want to do geoanalysis in Python); count helicopter trip volumn in a 700 meter (yes we love the metric system) radius around locations of interest.
 
-### Executing program
+### Count helicopter trips
 
-* How to run the program
-* Step-by-step bullets
-```
-code blocks for commands
-```
+* This awesome documents allows us to generate indexes for each helicopter trips in a way that ArcGIS Pro can understand. We faced the issue of ArcGIS connect all the dots disregarding the individual trips, so it looks pretty ugly and hard to render when we try to upload it on to it's online dashboard platform. So we wrote a for loop to give each trip consistent ID.
 
-## Help
 
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
+## Helps and thanks
+
+Thanks to Zhi Keng He from BetaNYC who provided us his username and password to access Opensky API. Thanks to Zhi again for providing us with code and essential help and guidance during my internship so that I was able to write these amazing codes. Thanks to my friend, project partner, and best bro Jiacheng Chen to do this project with me. You are so encouraging and patient with me, and you pushed this project to another level. So many times that I wanted to say "nah this would do" you insisted on actually figuring things out. Finally, thanks to John Lauermann. You truely believed that we could do finish this project. Everytime you tell us how good it is even though we have so little to show just makes us more motivated. You are a true mentor to the both of us
 
 ## Authors
 
-Contributors names and contact info
+Jiacheng Chen
+GitHub:[JCC](https://github.com/Coalllball)
 
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
+Ziqi Wang
+GitHub:[Ziqi](https://github.com/wazaqa-wah)
 
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
+Special thanks: Zhi Keng He
+GitHub:[Zhi Keng He](https://github.com/zhik)
 
