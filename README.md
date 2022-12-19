@@ -31,7 +31,9 @@ This repo contains all the code documents for data clearning and analysis in tha
 
 ## Helps and thanks
 
-Thanks to Zhi Keng He from BetaNYC who provided us his username and password to access Opensky API. Thanks to Zhi again for providing us with code and essential help and guidance during my internship so that I was able to write these amazing codes. Thanks to my friend, project partner, and best bro Jiacheng Chen to do this project with me. You are so encouraging and patient with me, and you pushed this project to another level. So many times that I wanted to say "nah this would do" you insisted on actually figuring things out. Finally, thanks to John Lauermann. You truely believed that we could do finish this project. Everytime you tell us how good it is even though we have so little to show just makes us more motivated. You are a true mentor to the both of us
+Thanks to Zhi Keng He from BetaNYC who provided us his username and password to access Opensky API. Thanks to Zhi again for providing us with code and essential help and guidance during my internship so that I was able to write these amazing codes. Thanks to my friend, project partner, and best bro Jiacheng Chen to do this project with me. You are so encouraging and patient with me, and you pushed this project to another level. So many times that I wanted to say "nah this would do" you insisted on actually figuring things out. Finally, thanks to John Lauermann. You truely believed that we could do finish this project. Everytime you tell us how good it is even though we have so little to show just makes us more motivated. You are a true mentor to the both of us.
+
+Credit to The OpenSky API: The OpenSky Network, https://opensky-network.org
 
 ## Authors
 
