@@ -10,11 +10,11 @@ The inspiration of the project came from another project that I did with BetaNYC
 This repo contains all the code documents for data clearning and analysis in that are done in Python. I will break them down by individual documents to help you understand what they all do.
 
 
-## Getting Started
+## Python codes
 
-### Dependencies
+### Helicopter data cleaning and count volumn
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
+* This file is used
 * ex. Windows 10
 
 ### Installing
