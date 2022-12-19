@@ -12,9 +12,9 @@ This repo contains all the code documents for data clearning and analysis in tha
 
 ## Python codes
 
-### Helicopter data cleaning and count volumn
+### Query API
 
-* This file is used
+* This is the file to pull
 * ex. Windows 10
 
 ### Installing
