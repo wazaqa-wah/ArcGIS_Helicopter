@@ -35,12 +35,12 @@ Thanks to Zhi Keng He from BetaNYC who provided us his username and password to 
 
 ## Authors
 
-Jiacheng Chen
+Jiacheng Chen<b>
 GitHub:[JCC](https://github.com/Coalllball)
 
-Ziqi Wang
+Ziqi Wang<b>
 GitHub:[Ziqi](https://github.com/wazaqa-wah)
 
-Special thanks: Zhi Keng He
+Special thanks: Zhi Keng He<b>
 GitHub:[Zhi Keng He](https://github.com/zhik)
 
